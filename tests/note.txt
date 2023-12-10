@@ -1,0 +1,17 @@
+1. setup project -
+    run steps - 
+    1. npm init -y
+    2. npm install testcafe --save --dev 
+-----------------------------------------------------------------------------------------------------------    
+2. for this error-  "cannot be loaded because running scripts is disabled on this system. For more information,    
+    At line:1 char:1
+    + ~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess"
+    
+    Solution - 
+    steps - 
+    1. Get-ExecutionPolicy
+    2. Set-ExecutionPolicy RemoteSigned -Scope Process
+    3. run testcafe running command (testcafe chrome .\tests\test1.js)
+--------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,58 @@
+{
+    "sourceFile": "tests/note.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 10,
+            "patches": [
+                {
+                    "date": 1702208997410,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1702209027923,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,8 @@\n + ~~~~~~~~\r\n     + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n     + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n \r\n-    Solution - \n\\ No newline at end of file\n+    Solution - \r\n+    steps - \r\n+    1. Get-ExecutionPolicy\r\n+    2. \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702209035532,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n \r\n     Solution - \r\n     steps - \r\n     1. Get-ExecutionPolicy\r\n-    2. \n\\ No newline at end of file\n+    2. Set-ExecutionPolicy RemoteSigned -Scope Process\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702209068564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,6 @@\n \r\n     Solution - \r\n     steps - \r\n     1. Get-ExecutionPolicy\r\n-    2. Set-ExecutionPolicy RemoteSigned -Scope Process\n\\ No newline at end of file\n+    2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n+    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702209133503,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,11 +1,11 @@\n-1. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n-At line:1 char:1\r\n-+ ~~~~~~~~\r\n+2.. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n+    At line:1 char:1\r\n+    + ~~~~~~~~\r\n     + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n     + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n \r\n     Solution - \r\n     steps - \r\n\\ No newline at end of file\n     1. Get-ExecutionPolicy\r\n     2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n-    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\n+    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\r\n"
+                },
+                {
+                    "date": 1702209188356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,9 @@\n-2.. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n+1. setup project -\r\n+    run steps - \r\n+    1. npm init -y\r\n+    2. npm i testcafe --save --dev \r\n+2. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n     At line:1 char:1\r\n     + ~~~~~~~~\r\n     + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n     + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n@@ -7,5 +11,5 @@\n     Solution - \r\n     steps - \r\n     1. Get-ExecutionPolicy\r\n     2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n-    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\n\\ No newline at end of file\n+    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\r\n"
+                },
+                {
+                    "date": 1702209274307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n 1. setup project -\r\n     run steps - \r\n     1. npm init -y\r\n-    2. npm i testcafe --save --dev \r\n+    2. npm install testcafe --save --dev \r\n 2. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n     At line:1 char:1\r\n     + ~~~~~~~~\r\n     + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n"
+                },
+                {
+                    "date": 1702209289039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,10 @@\n 1. setup project -\r\n     run steps - \r\n     1. npm init -y\r\n     2. npm install testcafe --save --dev \r\n+\r\n+-----------------------------------------------------------------------------------------------------------    \r\n 2. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n     At line:1 char:1\r\n     + ~~~~~~~~\r\n     + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n"
+                },
+                {
+                    "date": 1702209296709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,4 +14,5 @@\n     steps - \r\n     1. Get-ExecutionPolicy\r\n     2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n     3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\r\n+--------------------------------------------------------------------------------------------------------------\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702209308673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,17 @@\n+1. setup project -\r\n+    run steps - \r\n+    1. npm init -y\r\n+    2. npm install testcafe --save --dev \r\n+-----------------------------------------------------------------------------------------------------------    \r\n+2. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n+    At line:1 char:1\r\n+    + ~~~~~~~~\r\n+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n+    + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n+\r\n+    Solution - \r\n+    steps - \r\n+    1. Get-ExecutionPolicy\r\n+    2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n+    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\r\n+--------------------------------------------------------------------------------------------------------------\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1702209319050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -7,29 +7,11 @@\n     At line:1 char:1\r\n     + ~~~~~~~~\r\n     + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n     + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n-\r\n+    \r\n     Solution - \r\n     steps - \r\n     1. Get-ExecutionPolicy\r\n     2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n     3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\r\n---------------------------------------------------------------------------------------------------------------\n-1. setup project -\r\n-    run steps - \r\n-    1. npm init -y\r\n-    2. npm install testcafe --save --dev \r\n-\r\n------------------------------------------------------------------------------------------------------------    \r\n-2. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\n-    At line:1 char:1\r\n-    + ~~~~~~~~\r\n-    + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n-    + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n-\r\n-    Solution - \r\n-    steps - \r\n-    1. Get-ExecutionPolicy\r\n-    2. Set-ExecutionPolicy RemoteSigned -Scope Process\r\n-    3. run testcafe running command (testcafe chrome .\\tests\\test1.js)\r\n --------------------------------------------------------------------------------------------------------------\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1702208997410,
+            "name": "Commit-0",
+            "content": "1. for this error-  \"cannot be loaded because running scripts is disabled on this system. For more information,    \r\nAt line:1 char:1\r\n+ ~~~~~~~~\r\n    + CategoryInfo          : SecurityError: (:) [], PSSecurityException\r\n    + FullyQualifiedErrorId : UnauthorizedAccess\"\r\n\r\n    Solution - "
+        }
+    ]
+}

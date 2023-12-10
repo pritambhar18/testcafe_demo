@@ -1,0 +1,18 @@
+{
+    "sourceFile": "tests/test1.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1702208743449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1702208743449,
+            "name": "Commit-0",
+            "content": "fixture(\"my first test\")\r\n    .page(\"https://www.google.com/\");\r\n\r\n    test(\"1st test case\", async t => {\r\n        await t.typeText('#APjFqb',\"What is testing\")\r\n        await t.click(\".gNO89b\")\r\n        await t.wait(2000)\r\n\r\n    });\r\n\r\n    test(\"2nd test case\", async t => {\r\n\r\n    });\r\n"
+        }
+    ]
+}
