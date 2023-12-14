@@ -15,3 +15,5 @@
     2. Set-ExecutionPolicy RemoteSigned -Scope Process
     3. run testcafe running command (testcafe chrome .\tests\test1.js)
 --------------------------------------------------------------------------------------------------------------
+to run any test cafe file cmd - npx testcafe_demo chrome .\tests\test1.js
+--------------------------------------------------------------------------------------------------------------
