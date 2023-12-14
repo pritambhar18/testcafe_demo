@@ -17,3 +17,6 @@
 --------------------------------------------------------------------------------------------------------------
 to run any test cafe file cmd - npx testcafe_demo chrome .\tests\test1.js
 --------------------------------------------------------------------------------------------------------------
+
+  git config --global user.email "pritam.bhar18@gmail.com"
+  git config --global user.name "pritam18"
